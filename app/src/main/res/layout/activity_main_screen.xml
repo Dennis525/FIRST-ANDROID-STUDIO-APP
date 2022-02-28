@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainScreen"
+    android:background="#b8860b">
+
+    <Button
+        android:id="@+id/btnNewCase"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:text="@string/file_new_case"
+        android:textSize="15sp"
+        android:layout_marginTop="110dp"
+        android:layout_marginLeft="25dp"
+        android:background="#00563F"
+        android:textColor="@color/white"/>
+
+    <Button
+        android:id="@+id/btnMapExistingCase"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:layout_alignBottom="@+id/btnNewCase"
+        android:layout_toRightOf="@+id/btnNewCase"
+        android:layout_toEndOf="@+id/btnNewCase"
+        android:text="@string/request_mapping_of_existing_case"
+        android:textSize="15sp"
+        android:layout_marginLeft="3dp"
+        android:layout_marginRight="25dp"
+        android:background="#00563F"
+        android:textColor="@color/white" />
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/btnSearchCases"
+        android:layout_below="@+id/btnNewCase"
+        android:text="@string/search_for_invoice"
+        android:background="#00563F"
+        android:textColor="@color/white"
+        android:layout_marginTop="10dp"
+        android:layout_marginLeft="25dp" />
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        android:id="@+id/btnContact"
+        android:layout_below="@+id/btnNewCase"
+        android:text="@string/contact_us"
+        android:background="#00563F"
+        android:textColor="@color/white"
+        android:layout_marginTop="1dp"
+        android:layout_alignTop="@+id/btnSearchCases"
+        android:layout_alignLeft="@id/btnMapExistingCase"
+        android:layout_alignStart="@+id/btnMapExistingCase"/>
+
+
+</RelativeLayout>

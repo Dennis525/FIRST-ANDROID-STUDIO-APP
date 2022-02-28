@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "423385621790",
+    "project_id": "effill-83adb",
+    "storage_bucket": "effill-83adb.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:423385621790:android:17f61aa70ac99ce69f150f",
+        "android_client_info": {
+          "package_name": "com.example.effill"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "423385621790-7k1bv7rn6kqd4v9c3k23d1duld4bprtm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCwT5-jE1VoYBsI8vGvTzfQinZRrYHDbCM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "423385621790-7k1bv7rn6kqd4v9c3k23d1duld4bprtm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

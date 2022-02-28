@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Effill</string>
+    <string name="verify">Verify</string>
+    <string name="title_activity_logins">Logins</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="welcome">"Welcome !"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="login_failed">"Login failed"</string>
+    <string name="title_activity_login">Login</string>
+    <string name="file_new_case">File New Case</string>
+    <string name="request_mapping_of_existing_case">Request mapping of existing case</string>
+    <string name="contact_us">Contact us</string>
+    <string name="search_for_invoice">Search for invoice</string>
+    <string name = "menu_Open">Open</string>
+    <string name = "close_menu">Close</string>
+</resources>
