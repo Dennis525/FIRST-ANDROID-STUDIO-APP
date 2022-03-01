@@ -17,4 +17,5 @@
     <string name="search_for_invoice">Search for invoice</string>
     <string name = "menu_Open">Open</string>
     <string name = "close_menu">Close</string>
+
 </resources>

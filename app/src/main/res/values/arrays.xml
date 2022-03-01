@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="courts">
+        <item>TAP TO SELECT WHERE YOU WANT TO FILE COURT</item>
+        <item>Supreme Court</item>
+        <item>Tribunal </item>
+        <item>High court</item>
+        <item>Court of appeal</item>
+        <item>Employment and Labor Relations Court</item>
+        <item>Environment and Land Court</item>
+        <item>Magistrate Court</item>
+        <item>Kadhi Court</item>
+        <item>Small Claims Court</item>
+    </string-array>
+</resources>
