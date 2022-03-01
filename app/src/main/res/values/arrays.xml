@@ -12,4 +12,10 @@
         <item>Kadhi Court</item>
         <item>Small Claims Court</item>
     </string-array>
+    <string-array name="supreme_court">
+        <item>SELECT CASE CATEGORY</item>
+        <item>Supreme Court Petition (Prev SC.PT)</item>
+        <item>Supreme Court Advisory Opinion(Prev Code SC.REF)</item>
+        <item>Supreme Court Application(Prev Code SC.Applc)</item>
+    </string-array>
 </resources>
