@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
     <string-array name="courts">
-        <item>TAP TO SELECT WHERE YOU WANT TO FILE COURT</item>
+        <item>TAP TO SELECT WHERE YOU WANT TO FILE YOUR CASE</item>
         <item>Supreme Court</item>
         <item>Tribunal </item>
         <item>High court</item>
@@ -17,5 +17,26 @@
         <item>Supreme Court Petition (Prev SC.PT)</item>
         <item>Supreme Court Advisory Opinion(Prev Code SC.REF)</item>
         <item>Supreme Court Application(Prev Code SC.Applc)</item>
+    </string-array>
+    <string-array name="case_type">
+        <item>SELECT CASE TYPE</item>
+        <item>Appeal from Decision of the Court of Appeal</item>
+        <item>Appeal from Tribunals</item>
+        <item>Declaration of Emergency</item>
+        <item>Decrees and Orders</item>
+        <item>Petition</item>
+        <item>Advisory Opinion</item>
+        <item>Application for Enjoinment Amicus Curiae/Interested Party</item>
+        <item>Application for Extension of Time</item>
+        <item>Application for Leave</item>
+        <item>Application for Review of Certificate</item>
+        <item>Application for Review of Ruling and Orders</item>
+        <item>Application for Stay</item>
+        <item>Certificate for Urgency</item>
+        <item>Civil Application for Contempt Proceedings</item>
+        <item>Review of DR Decision</item>
+        <item>Review of Supreme Court Decisions</item>
+        <item>Substitution of parties</item>
+        <item>Supreme Court Application</item>
     </string-array>
 </resources>

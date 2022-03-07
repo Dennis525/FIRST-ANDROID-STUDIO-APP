@@ -4,18 +4,26 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#b8860b"
-    tools:context=".FileNewCase">
-
+    tools:context=".SupremeCourt"
+    android:background="#00563F">
 
     <Spinner
-        android:id="@+id/spinner1"
+        android:id="@+id/spinner2"
         android:background="@color/white"
         android:layout_marginTop="100dp"
         android:layout_width="300dp"
         android:layout_height="100dp"
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"/>
+
+    <Button
+        android:layout_width="200dp"
+        android:layout_height="50dp"
+        android:id="@+id/btnProceed"
+        android:layout_centerInParent="true"
+        android:text="@string/proceed"
+        android:background="#b8860b"/>
+
 
 
 </RelativeLayout>

@@ -13,7 +13,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Effill"
         android:usesCleartextTraffic="true">
-        <activity android:name=".Navigation_main"></activity>
+        <activity android:name=".ChangeView"></activity>
+        <activity android:name=".SupremeCourt" />
+        <activity android:name=".Navigation_main" />
         <activity android:name=".FileNewCase" />
         <activity android:name=".MainScreen" />
         <activity android:name=".Login" />

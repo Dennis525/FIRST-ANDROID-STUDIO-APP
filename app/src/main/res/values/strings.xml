@@ -15,7 +15,9 @@
     <string name="request_mapping_of_existing_case">Request mapping of existing case</string>
     <string name="contact_us">Contact us</string>
     <string name="search_for_invoice">Search for invoice</string>
-    <string name = "menu_Open">Open</string>
-    <string name = "close_menu">Close</string>
+    <string name="menu_Open">Open</string>
+    <string name="close_menu">Close</string>
+    <string name="proceed">PROCEED</string>
+
 
 </resources>

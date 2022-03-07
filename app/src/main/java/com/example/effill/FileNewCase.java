@@ -36,10 +36,11 @@ public class FileNewCase extends AppCompatActivity {
                     String itemSelected1 = mySpin.getSelectedItem().toString();
                     ArrayAdapter<String> myArrayAdapter = new ArrayAdapter<String>(FileNewCase.this,android.R.layout.simple_list_item_1,
                             getResources().getStringArray(R.array.supreme_court));
-                    myArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-                    mySpin.setAdapter(myArrayAdapter);
-                    Toast.makeText(FileNewCase.this, "You have selected " + itemSelected1,  Toast.LENGTH_SHORT).show();
-
+                     myArrayAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+                     mySpin.setAdapter(myArrayAdapter);
+                    Intent intent = new Intent(FileNewCase.this,SupremeCourt.class);
+                    startActivity(intent);
+                    finish();
 
                 }
             }
