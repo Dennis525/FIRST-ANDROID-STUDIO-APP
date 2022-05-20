@@ -38,5 +38,46 @@
         <item>Review of Supreme Court Decisions</item>
         <item>Substitution of parties</item>
         <item>Supreme Court Application</item>
+
     </string-array>
+    <string-array name="CourtStations">
+        <item>Select Court Station</item>
+        <item>Supreme Court</item>
+        <item>Nakuru Court of Appeal</item>
+        <item>Eldoret Court of Appeal</item>
+        <item>Nyeri Court of Appeal</item>
+        <item>Nairobi Court of Appeal</item>
+        <item>Kisumu Court of Appeal</item>
+        <item>Malindi Court of Appeal</item>
+        <item>Mombasa Court of Appeal</item>
+        <item>Milimani High Court</item>
+        <item>Nairobi Employment and Labour Relations Court</item>
+        <item>Milimani Environment and Land Court</item>
+        <item>Makadara Magistrate Court</item>
+        <item>Nairobi City Court</item>
+        <item>Milimani Commercial Magistrate Court</item>
+        <item>Kibera Magistrate Court</item>
+        <item>JKIA Magistrate Court</item>
+        <item>Kibera Kadhi Court</item>
+        <item>Nairobi KadhI Court</item>
+        <item>ENERGY AND PETROLEUM TRIBUNAL</item>
+        <item>Co-operative Tribunal</item>
+        <item>Communications and Multimedia Appeals Tribunals</item>
+        <item>Standards Tribunals</item>
+        <item>Micro and Small Enterprise Tribunal</item>
+        <item>National Civil Aviation Administrative Review Tribunal</item>
+        <item>Industrial Property Tribunal</item>
+        <item>Transport Licensing Appeals Board Tribunal</item>
+        <item>Competition Tribunal</item>
+        <item>Political Parties Dispute Tribunal(PPDT)</item>
+        <item>Competent Authority Tribunal</item>
+        <item>The National Environment Tribunal</item>
+        <item>Sports Disputes Tribunal</item>
+        <item>Legal Education Appeals Tribunal</item>
+        <item>Rent Restriction Tribunal</item>
+        <item>Auctioneers Licensing Board</item>
+        <item>Business Premises Rent Tribunal</item>
+        <item>Milimani Small Claims Court</item>
+    </string-array>
+
 </resources>

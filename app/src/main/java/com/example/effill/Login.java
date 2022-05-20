@@ -21,7 +21,7 @@ import org.jetbrains.annotations.NotNull;
 
 public class Login extends AppCompatActivity {
     TextInputLayout phone, password;
-    Button login,forget_password, signup;
+    Button login,forget_password, signup,signl,signp,signo,signi;
 
     DatabaseReference databaseReference = FirebaseDatabase.getInstance().getReferenceFromUrl("https://effill-83adb-default-rtdb.firebaseio.com/");
 
@@ -37,6 +37,7 @@ public class Login extends AppCompatActivity {
 
         login = findViewById(R.id.login);
         signup = findViewById(R.id.signup);
+
 
         signup.setOnClickListener(new View.OnClickListener() {
             @Override

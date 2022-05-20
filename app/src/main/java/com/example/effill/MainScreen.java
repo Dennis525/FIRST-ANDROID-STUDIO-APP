@@ -30,5 +30,19 @@ public class MainScreen extends AppCompatActivity {
                 startActivity(intent);
             }
         });
+        contact.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),Contact.class);
+                startActivity(intent);
+            }
+        });
+        existing_case.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent intent = new Intent(getApplicationContext(),ExistingCase.class);
+                startActivity(intent);
+            }
+        });
     }
 }

@@ -41,7 +41,7 @@ public class SupremeCourt extends AppCompatActivity {
         mySpin.setAdapter(arrayAdapter);
         btn = findViewById(R.id.btnProceed);
         dropSpin = new DropSpin();
-        reference = FirebaseDatabase.getInstance().getReference().child("case category");
+        reference = FirebaseDatabase.getInstance().getReference().child("Supreme Court").child("Case Category");
 
         reference.addValueEventListener(new ValueEventListener() {
             @Override
