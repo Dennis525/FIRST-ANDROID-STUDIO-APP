@@ -4,9 +4,14 @@ plugins {
 }
 
 android {
+    //noinspection GradleCompatible
     compileSdkVersion 32
 
     defaultConfig {
+        configurations.all {
+            resolutionStrategy { force 'androidx.core:core:1.6.0' }
+        }
+
         applicationId "com.example.effill"
         minSdkVersion 16
         targetSdkVersion 32
@@ -30,6 +35,7 @@ android {
     buildFeatures {
         viewBinding true
     }
+    buildToolsVersion '30.0.3'
 }
 
 dependencies {
@@ -48,6 +54,7 @@ dependencies {
     implementation 'com.google.firebase:firebase-storage:20.0.1'
     implementation 'androidx.navigation:navigation-fragment:2.4.2'
     implementation 'androidx.navigation:navigation-ui:2.4.2'
+    implementation files('C:\\Users\\DENNIS\\.gradle\\caches\\transforms-2\\files-2.1\\87143f5df1bfe40e79e2b86ba2353253\\navigation-ui-2.4.2\\META-INF\\com\\android\\build\\gradle\\aar-metadata.properties.')
     testImplementation 'junit:junit:'
     androidTestImplementation 'androidx.test.ext:junit:1.1.3'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.4.0'

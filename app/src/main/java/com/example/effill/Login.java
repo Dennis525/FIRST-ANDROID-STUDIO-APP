@@ -1,6 +1,9 @@
 package com.example.effill;
 
+import android.content.Context;
 import android.content.Intent;
+import android.net.ConnectivityManager;
+import android.net.NetworkInfo;
 import android.os.Bundle;
 import android.view.View;
 import android.view.WindowManager;
@@ -27,9 +30,13 @@ public class Login extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
-        getWindow().setFlags(WindowManager.LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
+        getWindow().setFlags(WindowManager.
+                LayoutParams.FLAG_FULLSCREEN, WindowManager.LayoutParams.FLAG_FULLSCREEN);
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+
+
+        checkConnection();
 
         phone = findViewById(R.id.phone);
         password = findViewById(R.id.password);
@@ -56,8 +63,8 @@ public class Login extends AppCompatActivity {
                 String passcode = password.getEditText().getText().toString();
 
                 if (txt_phone.isEmpty() || passcode.isEmpty()){
-                    phone.setError("This email be blank");
-                    password.setError("This password be blank");
+                    phone.setError("This email field cannot be blank");
+                    password.setError("This password field cannot be blank");
                 }
                 else {
                     databaseReference.child("users").addListenerForSingleValueEvent(new ValueEventListener() {
@@ -91,5 +98,23 @@ public class Login extends AppCompatActivity {
                 }
             }
         });
+    }
+
+    public void checkConnection(){
+        ConnectivityManager connectivityManager = (ConnectivityManager) getApplicationContext()
+                .getSystemService(Context.CONNECTIVITY_SERVICE);
+        NetworkInfo networkInfo = connectivityManager.getActiveNetworkInfo();
+
+        if (null!= networkInfo){
+            if (networkInfo.getType() == ConnectivityManager.TYPE_WIFI){
+                Toast.makeText(this, "Wifi Enabled", Toast.LENGTH_SHORT).show();
+            }
+            else if (networkInfo.getType() == ConnectivityManager.TYPE_MOBILE){
+                Toast.makeText(this, "Mobile Data Enabled", Toast.LENGTH_SHORT).show();
+            }
+
+        }
+        else
+            Toast.makeText(this, "No Internet Connection", Toast.LENGTH_SHORT).show();
     }
 }
